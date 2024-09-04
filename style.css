@@ -4,10 +4,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
 }
 
 body{
-    background-image: url(./assents/Background.jpg);
+    background-image: url(./assents/background-desktop.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -15,17 +16,25 @@ body{
 
 #container {
     border: 1px solid white; 
-    width: 360px;
-    height: 680px;
+    width: 588px;
+    height: 712px;
     margin: auto;
     margin-top: 56px;
     margin-bottom: 64px;
 }
 
 #profile img{
-    border: 1px solid white;
     display: block;
     margin: auto;
     padding: 24px;
+}
 
+#profile p {
+    color: white;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 400;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    
 }
