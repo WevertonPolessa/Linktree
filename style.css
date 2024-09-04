@@ -1,0 +1,31 @@
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./assents/Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container {
+    border: 1px solid white; 
+    width: 360px;
+    height: 680px;
+    margin: auto;
+    margin-top: 56px;
+    margin-bottom: 64px;
+}
+
+#profile img{
+    border: 1px solid white;
+    display: block;
+    margin: auto;
+    padding: 24px;
+
+}
