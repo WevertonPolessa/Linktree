@@ -60,6 +60,18 @@ body{
 /*efeito dos links*/
 ul li:hover {
     transform: scale(1.1);
-  }
+}
 
+.rodape {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    gap: 18px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+}
 
+.rodape p:hover {
+    transform: scale(1.2);
+}
